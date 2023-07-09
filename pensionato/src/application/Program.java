@@ -1,6 +1,6 @@
 package application;
 
-import java.util.Iterator;
+
 import java.util.Scanner;
 
 import entities.Rent;
@@ -33,7 +33,7 @@ public class Program {
 		System.out.println("Busy rooms: ");
 		for (int i = 0; i < vect.length; i++) {
 			if(vect[i] != null) {
-				System.out.println(i + ": "+ vect[i]);
+				System.out.println(i + ": " + vect[i]);
 			}
 		}
 		
